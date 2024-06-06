@@ -150,6 +150,9 @@ else()
     add_executable(remeshing remeshing.cpp)
     target_link_libraries(remeshing pmp_vis)
 
+    add_executable(hrtf_mesh_grading hrtf_mesh_grading.cpp)
+    target_link_libraries(hrtf_mesh_grading pmp_vis)
+
     add_executable(hole_filling hole_filling.cpp)
     target_link_libraries(hole_filling pmp_vis)
 
